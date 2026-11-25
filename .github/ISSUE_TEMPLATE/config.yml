@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask for a plugin, theme or extension in the store
+    url: https://github.com/GFocacetti/redline-catalog/issues
+    about: The store's list lives in the redline-catalog repository.

@@ -1,0 +1,38 @@
+name: Something doesn't work
+description: Report a problem with Redline
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Redline version
+      description: Settings → General → About.
+      placeholder: 0.9.1 beta
+    validations:
+      required: true
+  - type: dropdown
+    id: steam
+    attributes:
+      label: Steam client
+      options:
+        - Stable
+        - Beta
+    validations:
+      required: true
+  - type: textarea
+    id: extras
+    attributes:
+      label: Plugins, theme and extensions in use
+      description: Only the ones that are on.
+  - type: textarea
+    id: report
+    attributes:
+      label: Diagnostic report
+      description: Settings → General → Troubleshooting → Open logs → Create diagnostic report, then drag the zip here.
