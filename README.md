@@ -65,8 +65,6 @@ release, until Windows gets to know it.
 
 What you can check instead:
 
-- **Every release links its [VirusTotal](https://www.virustotal.com) scan**: the setup and the update package,
-  checked by more than 60 antivirus engines before they are published.
 - **Updates are signed**: Redline installs an update only if it carries Redline's own signature, so a file changed
   by anyone else is refused.
 - The setup and the update package are only published here, on this repository's Releases page.
